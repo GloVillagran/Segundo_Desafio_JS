@@ -1,0 +1,126 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+   
+ } 
+/* Ejercicio 1 */
+h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.containerUno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#imgClick {
+    border: none;
+    height: 300px;
+    width: 500px;
+}
+
+#imgClick.borderRed {
+    border: 2px solid red;
+}
+
+/* Ejercicio 2 */
+h3, p, button {
+    text-align: center;
+    font-weight: bolder;
+}
+.containerDos {
+    text-align: center;
+    margin: 4em;
+    border: rgb(165, 7, 204) solid;
+    background-color: rgb(229, 212, 244);
+}
+
+.TitleStickers {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.stickers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 45%;
+    border: 2px solid white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btnStickers {
+    margin-top: 20px;
+    background-color: rgb(211, 166, 237);
+    border-radius: 3px;
+    width: 10%;
+    margin-bottom: 1em;
+}
+
+#result {
+    text-align: center;
+}
+
+/* Ejercicio 3 */
+h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+.containerTres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    width: 30%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.select {
+    margin-bottom: 20px;
+}
+
+.select select {
+    margin-right: 10px;
+}
+
+.buttonPassword {
+    border-radius: 3px;
+    background-color: rgb(211, 166, 237);
+    width: 15%;
+}
+
+#password {
+    margin-top: 10px;
+}
+
+.correct-password {
+    color: green;
+}
+
+.incorrect-password {
+    color: red;
+}
+
+

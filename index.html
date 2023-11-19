@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Desafio 2 JS</title>
+</head>
+
+<body>
+    <h1>RAINBOW FRIENDS</h1>
+    <!-- Ejercicio 1 -->
+    <section class="containerUno">
+        <div>
+            <img id="imgClick" src="./assets/img/rainbow.jpeg" alt="rainbow">
+        </div>
+    </section>
+
+
+    <!-- Ejercicio 2 -->
+    <section class="containerDos">
+        <h1 class="TitleStickers">YOU CAN BUY A MAXIMUM OF 10 STICKERS</h1>
+        <div class="stickers">
+            <div class="image">
+                <img src="./assets/img/stickers1.jpg" alt="">
+                <h3>Blue</h3>
+                <input type="text" id="rainbow1">
+            </div>
+            <div class="image">
+                <img src="./assets/img/stickers2.jpg" alt="">
+                <h3>Green</h3>
+                <input type="text" id="rainbow2">
+            </div>
+            <div class="image">
+                <img src="./assets/img/sticker3.jpg" alt="">
+                <h3>Purple</h3>
+                <input type="text" id="rainbow3">
+            </div>
+            <div class="image">
+                <img src="./assets/img/stickers4.jpg" alt="">
+                <h3>Red</h3>
+                <input type="text" id="rainbow4">
+            </div>
+        </div>
+        <section>
+            <p id="result"></p>
+            <button class="btnStickers">BUY</button>
+        </section>
+    </section>
+
+    <!-- Ejercicio 3 -->
+    <section class="containerTres">
+        <div class="box">
+            <h2>Enter code</h2>
+            <section class="select">
+                <select id="first">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+
+                <select id="second">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+
+                <select id="third">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </section>
+            <section>
+                <button class="buttonPassword">Enter</button>
+                <p id="password" class="password-message"></p>
+            </section>
+        </div>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
